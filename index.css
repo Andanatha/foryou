@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body {
+    font-family: montserrat Alternates;
+    
+}
+
+audio {
+    margin-left: 200px;
+}
+
+.quest1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+}
+
+.quest2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.quest3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;   
+    text-align: justify;
+    gap: 50px;
+}
+
+.quest4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 30px;
+    text-align: center;
+    gap: 20px;
+}
+.quest5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+    gap: 20px;
+}
+
+.quest6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 35px;
+    text-align:center;
+    gap: 20px;
+}
+
+.quest7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 35px;
+    text-align:center;
+    gap: 20px;
+}
+
+.quest9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 35px;
+    text-align:center;
+    gap: 20px;
+}
+
+
+.isi1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.isi2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.isi5 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 600px;
+    margin-left: 300px;
+}
+
+.happy {
+    background-color: #f898c0;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.sad {
+    background-color: #98adf8;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.iyaOke {
+    background-color: #98adf8;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+
+.siap {
+    background-color: #98f898;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.lanjuti {
+    font-size: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: #002fff;
+    cursor: pointer;
+    background-color: white;
+}
+
+.conf {
+    
+    text-indent: 20px;
+}
+
+.mcr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.mcr1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(254, 19, 19);
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Ubah properti-posisi absolute menjadi relatif untuk quest1 */
+    .quest1,
+    .quest2,
+    .quest3,
+    .quest4,
+    .quest5,
+    .quest6,
+    .quest7,
+    .quest8,
+    .quest9 {
+        position: absolute;
+        width: auto;
+        margin: 20px;
+        transform: none;
+        top: auto;
+        left: auto;
+    }
+
+    /* Tinggalkan semua elemen dalam satu kolom untuk tampilan mobile */
+    .isi1,
+    .isi2,
+    .isi5 {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    /* Atur margin-bottom pada tombol */
+    .happy,
+    .sad,
+    .iyaOke,
+    .siap,
+    .lanjuti,
+    .lanjutin {
+        margin-bottom: 10px;
+    }
+
+    /* Sesuaikan font-size */
+    body {
+        font-size: 14px;
+    }
+
+    .quest2,
+    .quest4,
+    .quest5,
+    .quest6,
+    .quest7,
+    .quest9 {
+        font-size: 20px;
+    }
+
+    .mcr {
+        font-size: 20px;
+    }
+}
